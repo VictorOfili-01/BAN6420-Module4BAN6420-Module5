@@ -8,6 +8,23 @@ After consulting with your team, Principal Component Analysis (PCA) has been cho
 
 Specifically, I am required to perform the following task:
 
-Utilize Principal Component Analysis to demonstrate how essential variables can be acquired from the bc_data dataset
+Utilize Principal Component Analysis to demonstrate how essential variables can be acquired from the breast cancer (bc_data) dataset
 
 Reduce the dataset into 2 PCA components for the project
+
+Methodology:
+
+In performing the task, I used R code to import the breast cancer dataset sklearn.datasets. Then converted the data to a data frame named bc_data.
+
+Next,  I perform Principal Component Analysis (PCA) on the dataset. In doing so, I Standardized the numeric data before applying the PCA function.
+
+I then did a summary of PCA to see variance explained by each component.
+
+I created visualizations to show the variance explained by each principal component
+
+Finally, I reduced the dataset to 2 principal components
+
+
+
+
+
